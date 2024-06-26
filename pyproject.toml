@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "vulnerable-flask-llm-app"
+version = "0.1.0"
+description = "Vulnerable flask application"
+authors = ["Francesco de Lorenzi <francesco@delorenzi.me>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask = "^2.0.0"
+flask-sqlalchemy = "^2.5.1"
+python-dotenv = "^0.19.0"
+pdfplumber = "^0.7.1"
+openai = "^1.35.0"
+PyMySQL = "1.1.1"
+"Spire.PDF" = "^10.6.1"
