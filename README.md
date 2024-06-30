@@ -12,7 +12,7 @@ The application is a Curriculum Vitae (CV) evaluator that allows users to upload
 
 The application is intentionally vulnerable to the following vulnerabilities from OWASP:
 
-* LLM01 - Prompt Injection: The application generates a summary and evaluation of the CV using OpenAI's GPT-4 API, but does not properly sanitize the input. This allows an attacker to inject malicious commands into the prompt, which could then be executed by the API and provide incorrect scoring.
+* LLM01 - Prompt Injection: The application generates a summary and evaluation of the CV using OpenAI's GPT API, but does not properly sanitize the input. This allows an attacker to inject malicious commands into the prompt, which could then be executed by the API and provide incorrect scoring.
 * LLM02 - Insecure Hutput handling: The application displays the summaries on the `/summaries` endpoint without properly sanitizing the output. This allows an attacker to inject malicious JavaScript code into the summaries, which could then be executed by a user's browser.
 
 ## Usage
